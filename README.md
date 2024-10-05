@@ -9,6 +9,7 @@ Bash script that will automatically restart the docker container if exited
 
 **Create cron job that runs every minute**
 > echo "* * * * * root /path/container-check.sh" >> /etc/cron.d/container-status-scheck
+
 _Note: make sure to change the "path' to the actual path of the script_
 
 **Restart crond**
